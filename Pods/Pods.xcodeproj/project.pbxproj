@@ -1,0 +1,1209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E993EF11A3F92CF816BF5F67B1ED31 /* Pods-Pip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A0504C0F39FDFE3407AE1C9FDC6F44 /* Pods-Pip-dummy.m */; };
+		06DC44C1CD321C714C2F5BB7993BE157 /* UIView+ZFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F9B3A2454C7589598D0F636558B49C /* UIView+ZFFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1D0A0E22C55EC0136F04E6FD2BEF87 /* ZFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F0764D92B9FE3945962D67A315ECB4 /* ZFUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C768F7C63D2E1BB499036C72DFEBD2C /* ZFPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7572D599F07D3BA9CB0DFBA7F9011379 /* ZFPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E0B64F0403B883FE9ACCD7B006B00CF /* ZFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B8801AE6C9BC6B9564427FFB47F30 /* ZFUtilities.m */; };
+		1288B5CB4B7EF125A1D9C79C07DAE42D /* ZFPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BE6BC1BF90E829A695EE080555363C /* ZFPresentTransition.m */; };
+		144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7334AD8160E15502CB668786A4EEBE /* UILayoutSupport+Extensions.swift */; };
+		15F6C0116817EC9F2FDDEEE5857EBC03 /* ZFPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 081662A245F6F83269C41B81D1F94ECC /* ZFPlayer-dummy.m */; };
+		17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0D8F146CBDDBF758DC9DEF67633E1 /* ConstraintMultiplierTarget.swift */; };
+		19133A635073701046E2DABDF091123D /* ZFVolumeBrightnessView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3821DCDB8177868C7AA0DDF31183897 /* ZFVolumeBrightnessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3F951E5FC23F7F4589691771A825CA /* ZFPlayerGestureControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D779E7111C3197ED28CC638CD08B7B6C /* ZFPlayerGestureControl.m */; };
+		1D0629EFAF1DA302B9F10CB131D5774A /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAE4805F121ACCF182B61FA85F6B234 /* UIViewController+ZFPlayerRotation.m */; };
+		1D769643B28A005397BF62D4779B5FFE /* ZFPresentTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = DE913EA15E7CA56A7C8DB9AD35E0D8DF /* ZFPresentTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACCA298D443411D9C0BE413E809EA01 /* ConstraintView+Extensions.swift */; };
+		1F3615805640C45C4C064FC33DF7B190 /* ZFPlayerMediaPlayback.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A38649D72BD44764C344277A509CE06 /* ZFPlayerMediaPlayback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20C30F4ABA6696744CD6249AE74D7A92 /* ZFSpeedLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E85BFEF2FFCB6AED40600109ADFE7F36 /* ZFSpeedLoadingView.m */; };
+		22176B465D99294EB1029BE091F60A54 /* ZFPlayerGestureControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 693735AB28930BF9C0FB193E80425FD2 /* ZFPlayerGestureControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		257239AFDB01CB1FF168F90B1ABB2CEA /* UIImageView+ZFCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 684C39C2C45A7C9C5F3EB75C5B7CF1B2 /* UIImageView+ZFCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26B0300AAD550387A98198F4480B98B0 /* UIScrollView+ZFPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BFFD039157C9F3EB9F418C1400EB68 /* UIScrollView+ZFPlayer.m */; };
+		274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CAC8193A91C4CED9E90188EA113218 /* ConstraintLayoutSupportDSL.swift */; };
+		27B46AD79B4F4FB6B292C0CFE7D6FC05 /* ZFAVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 731C31A809A515AD1D3E9094B08598CF /* ZFAVPlayerManager.m */; };
+		2D7BCB230C835C3886239C7E73E2BE20 /* ZFKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CDDF873E161F10D15BBB1F0E6FF680 /* ZFKVOController.m */; };
+		316006AE4B6B3155636492364F2C895F /* ZFLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D489B2D336BD7E18CB7D334CDC60AFF3 /* ZFLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33948FF29B2AF686FC2DDB47976E7403 /* UIScrollView+ZFPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8013AA6B1CC26DBCA5436804FF9B5508 /* UIScrollView+ZFPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4839E3C84BD91AE963B3ECA4AC8ACFB /* ConstraintLayoutSupport.swift */; };
+		3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889B5437A93AC0196D5C56C56FAE4CD6 /* Typealiases.swift */; };
+		3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D574AE51D13CCAD5CD739CD0FF76D89A /* ConstraintLayoutGuide+Extensions.swift */; };
+		3E3BE30A6F432CAB2B3F1DCE0BFC2724 /* ZFPortraitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 734D6E793F4CD4162A4224C93EF57BAF /* ZFPortraitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA27B6EE59BFB9C532B38E7C1584C1B /* ZFPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE183DA8F24042D52D5255471B1284 /* ZFPlayerController.m */; };
+		43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA49916DF3A673A9124F27D4984FA79D /* LayoutConstraint.swift */; };
+		48D1194AD57FBFA5310BAD2BDC423440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		49EC42965AF41208F36C47265194D2BB /* ZFNetworkSpeedMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3A98691BD0879507026F9B7FA24770 /* ZFNetworkSpeedMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA3EC7D277231C4A181B27E1C403CAC /* ZFPortraitControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C38D69DCB54807C21CDCD0B75DDCEB82 /* ZFPortraitControlView.m */; };
+		4C308AFA458D8682CF27EFE92BF708AA /* ZFLandscapeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E586CF460B3A3D19A8CB56E57B56C265 /* ZFLandscapeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C985D65D6AE13E68F17C26BEB6F08BF /* ZFPlayerNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A6535EF0C69C5552D91C50B03D7EEB4C /* ZFPlayerNotification.m */; };
+		4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F68D6AFA27ECB96516813082A1B33E0 /* LayoutConstraintItem.swift */; };
+		51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A180FCB7428F2C049D60A24FED136 /* Constraint.swift */; };
+		53607DD53CCF008A25AB9E4712F81940 /* ZFReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C4753C0C82EAB360EDC809707CAD3 /* ZFReachabilityManager.m */; };
+		547E9DAC936F4133B07862178BADC69E /* ZFKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC22BD92952F2A5AFF8C02D9AE7870E6 /* ZFKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5596BBA32E5CBD8786A59ADB1E24C8BD /* ZFPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FA8776F52DF82BF113144D0C77933E /* ZFPlayerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5656C1EE1BDB14D36428BA872A3DCE10 /* ZFPortraitControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1756C4E186A472121029E6CA6068FF /* ZFPortraitControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39958F720720C2E1A6767A518EEF703 /* ConstraintViewDSL.swift */; };
+		62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F57CBB62ADE20B8511583ECF25AEA2 /* ConstraintOffsetTarget.swift */; };
+		63995C33E927D9D3B07CE043C6B8EF71 /* ZFLandscapeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 96156DCB617394985BDD2FF8BA5E8F9E /* ZFLandscapeWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578639EA36CB6967485AFA37C5BABFC /* ConstraintAttributes.swift */; };
+		7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AAB071CC04536B1FB22943D6429A6 /* ConstraintDirectionalInsetTarget.swift */; };
+		7A9956995BC4541FE4BE1E3D161F7AF9 /* ZFOrientationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EE58CC576C888ABB2093422A4E74CD /* ZFOrientationObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ECE79F02AF8EF3C5C3CFCDAE4D7C4EF /* ZFSliderView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4BA76A9E88536FBDC1D864B70784BE /* ZFSliderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8187269C1C9BCDAF0AD1900971633F11 /* ZFFloatView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98075730CB27FF541E8EA5203139BBC4 /* ZFFloatView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228517A9169738B82FB00CFDE4DA2D19 /* ConstraintMakerExtendable.swift */; };
+		8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817BC331043CC41AE6033205CAA2D6F /* ConstraintLayoutGuideDSL.swift */; };
+		868F8D3659B591A5B1F675342D1AD392 /* ZFAVPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 843474B3A374851A5114ACD77EB4C371 /* ZFAVPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		879A15976D41FA9C88D5073A38BB6FF2 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = D557A08F83B8BAD171B04D7F343F8738 /* ZFPlayerControlView.m */; };
+		89B7A42ED28B8FF7687250DC172AEB86 /* ZFOrientationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 963B10A8D984B54E6A54C73BD9043EF2 /* ZFOrientationObserver.m */; };
+		8ABED11C99867C85A89D03B4C691BFFF /* ZFSpeedLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B3E0AF9D8189A2D16FC85FA9BB3290 /* ZFSpeedLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95478D79564C0625524072064371888 /* ConstraintInsets.swift */; };
+		8E839DACDAB99902E032A4D3995559C4 /* ZFPlayerConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3AD2C4CDCC08B3E0E6CD4D0BD60C79 /* ZFPlayerConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E84C01B6A0C0562879E3C2401171083 /* ZFLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC92E9E5C4424333B5201856402147F5 /* ZFLoadingView.m */; };
+		8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C34CC825F803995BAF01CADCADD8C /* ConstraintDescription.swift */; };
+		90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69AD0AF491C3157F2CC8327450472A /* ConstraintDSL.swift */; };
+		939A858E2D9C0A7630F7A705737E5817 /* ZFReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA7CE1BACF5A7D0D86E250DC22E885F /* ZFReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9642440D0B07B793EC29DCDB95AA1B58 /* ZFPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4930430817F28627FD0ED3A21C1A43A6 /* ZFPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1706AD5F0C1189F70CA11BB8290A7947 /* SnapKit-dummy.m */; };
+		9708BF5AFCD7DDD441E5D313B47B2D23 /* ZFSmallFloatControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E89EE5DA65CD8ED20E27C6C2E3404E /* ZFSmallFloatControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C5CAF767B0310CF633E93DE1F23F4B7 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FE0DCCD7B3E3DBD5206CFBDD1E066E /* ZFPlayerView.m */; };
+		A0B4D15FF5E1F7BEB71B39F50AD16E6A /* ZFPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E839E63EA52FF50AD0BAF8D58A1B20A2 /* ZFPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EDCCC82CC9F3A01972A86BB5CD1B7 /* ConstraintDirectionalInsets.swift */; };
+		A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 986985F05AFE5E2CECAE5497FDA1413E /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6126BD10F4371AC7AD420EAEE2C0B45C /* ConstraintMakerEditable.swift */; };
+		A73867CBF65BA575BF8D076EF3D26209 /* ZFLandscapeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED9CD671C8E2348DF7558AD9F0BE41 /* ZFLandscapeWindow.m */; };
+		A7899219F39360F74328F50A1E9B3A0B /* ZFFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3CB33D6EB99059BAD9879402754DFF /* ZFFloatView.m */; };
+		A8B1C20B3B834D0C02D06D42595C4760 /* ZFPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABC2B638397BA5587A7DA73D1579FB /* ZFPortraitViewController.m */; };
+		A9C6DA00887152AA44E2C3B4C2D30452 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39D30A4ED5F885AA349E07CF1D5D94 /* UIImageView+ZFCache.m */; };
+		AEAE23F71F48AC3335238BAE5C83C1E3 /* ZFPersentInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F16C7F26FFCC33F71BAF587AA0D8A82 /* ZFPersentInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2126C2BAADA1D00DD4C66BB2CEBB52E /* ZFNetworkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 705DF25C4E0532740A3D1D0D32DDEB47 /* ZFNetworkSpeedMonitor.m */; };
+		B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DB0DF1D7375F7E843F9A0E2025324 /* ConstraintConfig.swift */; };
+		BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97401610AB0CBF37B97528AB7D96BB98 /* ConstraintItem.swift */; };
+		BE33F0F776CBAEE48F4E8928BE5E3371 /* ZFPersentInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 117B7E11AEA00DF757D74D30C5A0AFAA /* ZFPersentInteractiveTransition.m */; };
+		BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024805D43D0FFBA54D6EF70D82622EC /* ConstraintInsetTarget.swift */; };
+		C0DCDA02C7B15CEBDDAA20FFAACA0CA8 /* UIView+ZFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A68228143F9932FE891F39F387CEDB1 /* UIView+ZFFrame.m */; };
+		C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47CFE48743072A73E272795DC59ED81 /* ConstraintConstantTarget.swift */; };
+		CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48B12FDC26BEEC319AFA870C7E658E /* ConstraintMaker.swift */; };
+		CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF725F6EADCF6F7768097B71B03421F6 /* ConstraintMakerRelatable.swift */; };
+		CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CDB2544286293FD0C93883BC5289D6C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96664FDC54E9FAC997B53AA87D8468F8 /* ConstraintMakerFinalizable.swift */; };
+		D2863B72BD9973C88B3ECC119BCF0639 /* ZFPlayerLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A0B20649C38711B76BFD575098F70 /* ZFPlayerLogManager.m */; };
+		D29DF48DE81273D5C812F2CB7D23042F /* ZFLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5736A5D71806451275EE55E8A3C94A /* ZFLandscapeViewController.m */; };
+		D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59CC55C43282BB242C8D4D2D983CA7 /* ConstraintRelation.swift */; };
+		D62FF28EC5007DFAED117B4605C08CF4 /* Pods-Pip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 899750F5A53A60397A49D2D394E6C4CB /* Pods-Pip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E539A23AE7E554EF8B8EFEDA49AB01 /* ZFSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3207E26DAB6A7A2444B5CECA786F5553 /* ZFSliderView.m */; };
+		E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1FC8F7D4D5E82D8751F3E793523EB /* ConstraintPriorityTarget.swift */; };
+		E467104EEC13B660444F9CF14CAF6AFD /* ZFPlayerControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CFAC2EDEBD6C16F0364EB3976BE997 /* ZFPlayerControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F8E1DAA8CD82F933532B8BF9848A20 /* ZFLandScapeControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = C751F464BD48FC8CA915AEF72309B3C9 /* ZFLandScapeControlView.m */; };
+		E5DA0CCA3B7742900E278FCAA363AA8A /* ZFPlayerNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 00410CCD6699284C62E973028DAF11C3 /* ZFPlayerNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6DFDF7F7B5AC1392B015C2B214E1FF /* ConstraintRelatableTarget.swift */; };
+		E9163CE9E4C7F4FB51C147540EF0C27C /* ZFPlayerLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F758DD61F2E1BCC5FEA4197DC61BA927 /* ZFPlayerLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7862AB3523FD1BE2ED50BACB06E5A3B5 /* ConstraintLayoutGuide.swift */; };
+		F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B04977FEB78CB7FB993C30F936016 /* Debugging.swift */; };
+		F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B77022BD659FEAED578A57DFA6CE2F /* ConstraintView.swift */; };
+		F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5349F4D889890E1C0DDD659AD377FA /* ConstraintMakerPriortizable.swift */; };
+		F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EC35FB2C1C15359BC85C2E27475717 /* ConstraintPriority.swift */; };
+		F5E575535D380D89C58484428494C85A /* ZFVolumeBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3250FEC928883A4B7B52055090DE7863 /* ZFVolumeBrightnessView.m */; };
+		F6A07B02B24DE1DEF80303EA015C2DBB /* ZFSmallFloatControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = E205200C48963E8ED92C2314F9A33712 /* ZFSmallFloatControlView.m */; };
+		F6B79EE2587A0D037C6ABB68319DF456 /* ZFLandScapeControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72570202D24E1F1AF656105F1E06C49C /* ZFLandScapeControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB9C965E2CA79EF790EC94963CED4C8 /* ZFPlayerMediaControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B07EA7A84B527BBC0629ED1FFA679EAF /* ZFPlayerMediaControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264ADBCAA4971AC32C30F279408A6CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FD1F93E0C30B2749BD8A6EC148F233;
+			remoteInfo = ZFPlayer;
+		};
+		9C1FF182136F51E6CD6DC710264076AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0024805D43D0FFBA54D6EF70D82622EC /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		00410CCD6699284C62E973028DAF11C3 /* ZFPlayerNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerNotification.h; path = ZFPlayer/Classes/Core/ZFPlayerNotification.h; sourceTree = "<group>"; };
+		03B3E0AF9D8189A2D16FC85FA9BB3290 /* ZFSpeedLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSpeedLoadingView.h; path = ZFPlayer/Classes/ControlView/ZFSpeedLoadingView.h; sourceTree = "<group>"; };
+		05C46777D2303CB110D265285C1D21D3 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		06A0504C0F39FDFE3407AE1C9FDC6F44 /* Pods-Pip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pip-dummy.m"; sourceTree = "<group>"; };
+		081662A245F6F83269C41B81D1F94ECC /* ZFPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZFPlayer-dummy.m"; sourceTree = "<group>"; };
+		0A9EDCCC82CC9F3A01972A86BB5CD1B7 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		117B7E11AEA00DF757D74D30C5A0AFAA /* ZFPersentInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPersentInteractiveTransition.m; path = ZFPlayer/Classes/Core/ZFPersentInteractiveTransition.m; sourceTree = "<group>"; };
+		1706AD5F0C1189F70CA11BB8290A7947 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		1817BC331043CC41AE6033205CAA2D6F /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		19A10F91420C0882C9C84C30D341D54A /* ZFPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		1C59CC55C43282BB242C8D4D2D983CA7 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		1F35CC761B59C517C22F2870471BC339 /* Pods-Pip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pip-Info.plist"; sourceTree = "<group>"; };
+		228517A9169738B82FB00CFDE4DA2D19 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		29EC35FB2C1C15359BC85C2E27475717 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		2A8A0B20649C38711B76BFD575098F70 /* ZFPlayerLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerLogManager.m; path = ZFPlayer/Classes/Core/ZFPlayerLogManager.m; sourceTree = "<group>"; };
+		2AAE4805F121ACCF182B61FA85F6B234 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ZFPlayerRotation.m"; path = "ZFPlayer/Classes/Core/UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		2ACE05F24C849348AE433258DBC76B17 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		2D9C4753C0C82EAB360EDC809707CAD3 /* ZFReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFReachabilityManager.m; path = ZFPlayer/Classes/Core/ZFReachabilityManager.m; sourceTree = "<group>"; };
+		2F68D6AFA27ECB96516813082A1B33E0 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		3131502706F7AAEEC4F3123C94A103A3 /* Pods-Pip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pip.release.xcconfig"; sourceTree = "<group>"; };
+		3207E26DAB6A7A2444B5CECA786F5553 /* ZFSliderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSliderView.m; path = ZFPlayer/Classes/ControlView/ZFSliderView.m; sourceTree = "<group>"; };
+		3250FEC928883A4B7B52055090DE7863 /* ZFVolumeBrightnessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFVolumeBrightnessView.m; path = ZFPlayer/Classes/ControlView/ZFVolumeBrightnessView.m; sourceTree = "<group>"; };
+		3A38649D72BD44764C344277A509CE06 /* ZFPlayerMediaPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerMediaPlayback.h; path = ZFPlayer/Classes/Core/ZFPlayerMediaPlayback.h; sourceTree = "<group>"; };
+		437B8801AE6C9BC6B9564427FFB47F30 /* ZFUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFUtilities.m; path = ZFPlayer/Classes/ControlView/ZFUtilities.m; sourceTree = "<group>"; };
+		4930430817F28627FD0ED3A21C1A43A6 /* ZFPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerView.h; path = ZFPlayer/Classes/Core/ZFPlayerView.h; sourceTree = "<group>"; };
+		4A69AD0AF491C3157F2CC8327450472A /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		4B8AAB071CC04536B1FB22943D6429A6 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		4C3CB33D6EB99059BAD9879402754DFF /* ZFFloatView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFFloatView.m; path = ZFPlayer/Classes/Core/ZFFloatView.m; sourceTree = "<group>"; };
+		5AEE183DA8F24042D52D5255471B1284 /* ZFPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerController.m; path = ZFPlayer/Classes/Core/ZFPlayerController.m; sourceTree = "<group>"; };
+		5F2DA61FC1196E9A79F93A3C7DFAAB68 /* Pods-Pip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6126BD10F4371AC7AD420EAEE2C0B45C /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		684C39C2C45A7C9C5F3EB75C5B7CF1B2 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+ZFCache.h"; path = "ZFPlayer/Classes/ControlView/UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		693735AB28930BF9C0FB193E80425FD2 /* ZFPlayerGestureControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerGestureControl.h; path = ZFPlayer/Classes/Core/ZFPlayerGestureControl.h; sourceTree = "<group>"; };
+		705DF25C4E0532740A3D1D0D32DDEB47 /* ZFNetworkSpeedMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFNetworkSpeedMonitor.m; path = ZFPlayer/Classes/ControlView/ZFNetworkSpeedMonitor.m; sourceTree = "<group>"; };
+		72570202D24E1F1AF656105F1E06C49C /* ZFLandScapeControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandScapeControlView.h; path = ZFPlayer/Classes/ControlView/ZFLandScapeControlView.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731C31A809A515AD1D3E9094B08598CF /* ZFAVPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFAVPlayerManager.m; path = ZFPlayer/Classes/AVPlayer/ZFAVPlayerManager.m; sourceTree = "<group>"; };
+		734D6E793F4CD4162A4224C93EF57BAF /* ZFPortraitViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPortraitViewController.h; path = ZFPlayer/Classes/Core/ZFPortraitViewController.h; sourceTree = "<group>"; };
+		73FA8776F52DF82BF113144D0C77933E /* ZFPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerController.h; path = ZFPlayer/Classes/Core/ZFPlayerController.h; sourceTree = "<group>"; };
+		7572D599F07D3BA9CB0DFBA7F9011379 /* ZFPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFPlayer-umbrella.h"; sourceTree = "<group>"; };
+		7578639EA36CB6967485AFA37C5BABFC /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		764C9464E3260DC944BEFD347FA2BFF2 /* Pods-Pip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pip-acknowledgements.plist"; sourceTree = "<group>"; };
+		76F0764D92B9FE3945962D67A315ECB4 /* ZFUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFUtilities.h; path = ZFPlayer/Classes/ControlView/ZFUtilities.h; sourceTree = "<group>"; };
+		7862AB3523FD1BE2ED50BACB06E5A3B5 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		790DD1B955C44C3DD3FA37E0744190E9 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
+		7A7334AD8160E15502CB668786A4EEBE /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		7B1913FF2D85EF82B4F26283B1800C34 /* Pods-Pip-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pip-resources.sh"; sourceTree = "<group>"; };
+		7E3AD2C4CDCC08B3E0E6CD4D0BD60C79 /* ZFPlayerConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerConst.h; path = ZFPlayer/Classes/Core/ZFPlayerConst.h; sourceTree = "<group>"; };
+		7F1756C4E186A472121029E6CA6068FF /* ZFPortraitControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPortraitControlView.h; path = ZFPlayer/Classes/ControlView/ZFPortraitControlView.h; sourceTree = "<group>"; };
+		8013AA6B1CC26DBCA5436804FF9B5508 /* UIScrollView+ZFPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ZFPlayer.h"; path = "ZFPlayer/Classes/Core/UIScrollView+ZFPlayer.h"; sourceTree = "<group>"; };
+		843474B3A374851A5114ACD77EB4C371 /* ZFAVPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFAVPlayerManager.h; path = ZFPlayer/Classes/AVPlayer/ZFAVPlayerManager.h; sourceTree = "<group>"; };
+		889B5437A93AC0196D5C56C56FAE4CD6 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		899750F5A53A60397A49D2D394E6C4CB /* Pods-Pip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pip-umbrella.h"; sourceTree = "<group>"; };
+		8A5B04977FEB78CB7FB993C30F936016 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		8A68228143F9932FE891F39F387CEDB1 /* UIView+ZFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZFFrame.m"; path = "ZFPlayer/Classes/ControlView/UIView+ZFFrame.m"; sourceTree = "<group>"; };
+		8E32C99009B589C764B26C35A76CE102 /* ZFPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZFPlayer.modulemap; sourceTree = "<group>"; };
+		8F5736A5D71806451275EE55E8A3C94A /* ZFLandscapeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeViewController.m; path = ZFPlayer/Classes/Core/ZFLandscapeViewController.m; sourceTree = "<group>"; };
+		90F9B3A2454C7589598D0F636558B49C /* UIView+ZFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZFFrame.h"; path = "ZFPlayer/Classes/ControlView/UIView+ZFFrame.h"; sourceTree = "<group>"; };
+		96156DCB617394985BDD2FF8BA5E8F9E /* ZFLandscapeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeWindow.h; path = ZFPlayer/Classes/Core/ZFLandscapeWindow.h; sourceTree = "<group>"; };
+		963B10A8D984B54E6A54C73BD9043EF2 /* ZFOrientationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFOrientationObserver.m; path = ZFPlayer/Classes/Core/ZFOrientationObserver.m; sourceTree = "<group>"; };
+		96664FDC54E9FAC997B53AA87D8468F8 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		97401610AB0CBF37B97528AB7D96BB98 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97ABC2B638397BA5587A7DA73D1579FB /* ZFPortraitViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPortraitViewController.m; path = ZFPlayer/Classes/Core/ZFPortraitViewController.m; sourceTree = "<group>"; };
+		97EE58CC576C888ABB2093422A4E74CD /* ZFOrientationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFOrientationObserver.h; path = ZFPlayer/Classes/Core/ZFOrientationObserver.h; sourceTree = "<group>"; };
+		98075730CB27FF541E8EA5203139BBC4 /* ZFFloatView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFFloatView.h; path = ZFPlayer/Classes/Core/ZFFloatView.h; sourceTree = "<group>"; };
+		986985F05AFE5E2CECAE5497FDA1413E /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		9BA7CE1BACF5A7D0D86E250DC22E885F /* ZFReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFReachabilityManager.h; path = ZFPlayer/Classes/Core/ZFReachabilityManager.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F16C7F26FFCC33F71BAF587AA0D8A82 /* ZFPersentInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPersentInteractiveTransition.h; path = ZFPlayer/Classes/Core/ZFPersentInteractiveTransition.h; sourceTree = "<group>"; };
+		A10DB0DF1D7375F7E843F9A0E2025324 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		A3821DCDB8177868C7AA0DDF31183897 /* ZFVolumeBrightnessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFVolumeBrightnessView.h; path = ZFPlayer/Classes/ControlView/ZFVolumeBrightnessView.h; sourceTree = "<group>"; };
+		A39958F720720C2E1A6767A518EEF703 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		A4839E3C84BD91AE963B3ECA4AC8ACFB /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		A5FE0DCCD7B3E3DBD5206CFBDD1E066E /* ZFPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerView.m; path = ZFPlayer/Classes/Core/ZFPlayerView.m; sourceTree = "<group>"; };
+		A6535EF0C69C5552D91C50B03D7EEB4C /* ZFPlayerNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerNotification.m; path = ZFPlayer/Classes/Core/ZFPlayerNotification.m; sourceTree = "<group>"; };
+		A7824174C134E8A6820BAF701F4AFD3D /* Pods-Pip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pip.modulemap"; sourceTree = "<group>"; };
+		AA35922B73C351663F562CE31EB6E4FE /* Pods-Pip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pip.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4BA76A9E88536FBDC1D864B70784BE /* ZFSliderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSliderView.h; path = ZFPlayer/Classes/ControlView/ZFSliderView.h; sourceTree = "<group>"; };
+		AE39D30A4ED5F885AA349E07CF1D5D94 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+ZFCache.m"; path = "ZFPlayer/Classes/ControlView/UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		AF725F6EADCF6F7768097B71B03421F6 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		B07EA7A84B527BBC0629ED1FFA679EAF /* ZFPlayerMediaControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerMediaControl.h; path = ZFPlayer/Classes/Core/ZFPlayerMediaControl.h; sourceTree = "<group>"; };
+		B4CE22138B1AC0B2F3872C9EA2D54100 /* Pods-Pip */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Pip"; path = Pods_Pip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65C34CC825F803995BAF01CADCADD8C /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		BA49916DF3A673A9124F27D4984FA79D /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		BF48B12FDC26BEEC319AFA870C7E658E /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		C38D69DCB54807C21CDCD0B75DDCEB82 /* ZFPortraitControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPortraitControlView.m; path = ZFPlayer/Classes/ControlView/ZFPortraitControlView.m; sourceTree = "<group>"; };
+		C3CBD96B430EB6185275DB69711B874E /* ZFPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZFPlayer.release.xcconfig; sourceTree = "<group>"; };
+		C5F57CBB62ADE20B8511583ECF25AEA2 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		C6E1FC8F7D4D5E82D8751F3E793523EB /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		C751F464BD48FC8CA915AEF72309B3C9 /* ZFLandScapeControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandScapeControlView.m; path = ZFPlayer/Classes/ControlView/ZFLandScapeControlView.m; sourceTree = "<group>"; };
+		CA6DFDF7F7B5AC1392B015C2B214E1FF /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		CC22BD92952F2A5AFF8C02D9AE7870E6 /* ZFKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFKVOController.h; path = ZFPlayer/Classes/Core/ZFKVOController.h; sourceTree = "<group>"; };
+		D1CDDF873E161F10D15BBB1F0E6FF680 /* ZFKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFKVOController.m; path = ZFPlayer/Classes/Core/ZFKVOController.m; sourceTree = "<group>"; };
+		D2199BA53204173BD08F5BB7750E852E /* ZFPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZFPlayer-prefix.pch"; sourceTree = "<group>"; };
+		D47CFE48743072A73E272795DC59ED81 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		D489B2D336BD7E18CB7D334CDC60AFF3 /* ZFLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLoadingView.h; path = ZFPlayer/Classes/ControlView/ZFLoadingView.h; sourceTree = "<group>"; };
+		D4CFAC2EDEBD6C16F0364EB3976BE997 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerControlView.h; path = ZFPlayer/Classes/ControlView/ZFPlayerControlView.h; sourceTree = "<group>"; };
+		D557A08F83B8BAD171B04D7F343F8738 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerControlView.m; path = ZFPlayer/Classes/ControlView/ZFPlayerControlView.m; sourceTree = "<group>"; };
+		D574AE51D13CCAD5CD739CD0FF76D89A /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		D6B77022BD659FEAED578A57DFA6CE2F /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		D779E7111C3197ED28CC638CD08B7B6C /* ZFPlayerGestureControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPlayerGestureControl.m; path = ZFPlayer/Classes/Core/ZFPlayerGestureControl.m; sourceTree = "<group>"; };
+		D95478D79564C0625524072064371888 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		DB0A41A6C374DFDD17ED5BC67CD5CC0C /* ZFPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZFPlayer-Info.plist"; sourceTree = "<group>"; };
+		DB5349F4D889890E1C0DDD659AD377FA /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		DE913EA15E7CA56A7C8DB9AD35E0D8DF /* ZFPresentTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPresentTransition.h; path = ZFPlayer/Classes/Core/ZFPresentTransition.h; sourceTree = "<group>"; };
+		E205200C48963E8ED92C2314F9A33712 /* ZFSmallFloatControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSmallFloatControlView.m; path = ZFPlayer/Classes/ControlView/ZFSmallFloatControlView.m; sourceTree = "<group>"; };
+		E586CF460B3A3D19A8CB56E57B56C265 /* ZFLandscapeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFLandscapeViewController.h; path = ZFPlayer/Classes/Core/ZFLandscapeViewController.h; sourceTree = "<group>"; };
+		E839E63EA52FF50AD0BAF8D58A1B20A2 /* ZFPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayer.h; path = ZFPlayer/Classes/Core/ZFPlayer.h; sourceTree = "<group>"; };
+		E85BFEF2FFCB6AED40600109ADFE7F36 /* ZFSpeedLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFSpeedLoadingView.m; path = ZFPlayer/Classes/ControlView/ZFSpeedLoadingView.m; sourceTree = "<group>"; };
+		EA77E04AC695A831E1BA4DCB1C259641 /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		EACCA298D443411D9C0BE413E809EA01 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		EC4843FA73BEC0DC1CDC9C6BFE5CD66B /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		EC92E9E5C4424333B5201856402147F5 /* ZFLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLoadingView.m; path = ZFPlayer/Classes/ControlView/ZFLoadingView.m; sourceTree = "<group>"; };
+		ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZFPlayer; path = ZFPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3A98691BD0879507026F9B7FA24770 /* ZFNetworkSpeedMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFNetworkSpeedMonitor.h; path = ZFPlayer/Classes/ControlView/ZFNetworkSpeedMonitor.h; sourceTree = "<group>"; };
+		EE5A180FCB7428F2C049D60A24FED136 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		F1B0D8F146CBDDBF758DC9DEF67633E1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		F2BE6BC1BF90E829A695EE080555363C /* ZFPresentTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFPresentTransition.m; path = ZFPlayer/Classes/Core/ZFPresentTransition.m; sourceTree = "<group>"; };
+		F4CAC8193A91C4CED9E90188EA113218 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		F5ED9CD671C8E2348DF7558AD9F0BE41 /* ZFLandscapeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZFLandscapeWindow.m; path = ZFPlayer/Classes/Core/ZFLandscapeWindow.m; sourceTree = "<group>"; };
+		F6BFFD039157C9F3EB9F418C1400EB68 /* UIScrollView+ZFPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ZFPlayer.m"; path = "ZFPlayer/Classes/Core/UIScrollView+ZFPlayer.m"; sourceTree = "<group>"; };
+		F758DD61F2E1BCC5FEA4197DC61BA927 /* ZFPlayerLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFPlayerLogManager.h; path = ZFPlayer/Classes/Core/ZFPlayerLogManager.h; sourceTree = "<group>"; };
+		F8E89EE5DA65CD8ED20E27C6C2E3404E /* ZFSmallFloatControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZFSmallFloatControlView.h; path = ZFPlayer/Classes/ControlView/ZFSmallFloatControlView.h; sourceTree = "<group>"; };
+		FC69E513036A2C8AD43010CC01C9E18E /* ZFPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZFPlayer.bundle; path = ZFPlayer/Classes/ControlView/ZFPlayer.bundle; sourceTree = "<group>"; };
+		FEAF32361CB2F9614E27FE46C5F39089 /* Pods-Pip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pip-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B30433E568C40FCE04D5188A9715448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA22C9F421C9E8C13009947816D8C82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5991E14149A190CC7497242D2C2A7FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB2544286293FD0C93883BC5289D6C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8A85FFEC56CE3B6F2C177A7C96A7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D1194AD57FBFA5310BAD2BDC423440 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED3F05E0B4EC25BB0D62F897EC14C41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A368151F9770E9252E8C0AEB20715349 /* SnapKit */,
+				DB14F762A418A1BE42FEF60DD0B955CD /* ZFPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16032F9E0CD64173BB89A90B8C52559D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC69E513036A2C8AD43010CC01C9E18E /* ZFPlayer.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25CE3F60B0C0BDD935529054786F2805 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E32C99009B589C764B26C35A76CE102 /* ZFPlayer.modulemap */,
+				081662A245F6F83269C41B81D1F94ECC /* ZFPlayer-dummy.m */,
+				DB0A41A6C374DFDD17ED5BC67CD5CC0C /* ZFPlayer-Info.plist */,
+				D2199BA53204173BD08F5BB7750E852E /* ZFPlayer-prefix.pch */,
+				7572D599F07D3BA9CB0DFBA7F9011379 /* ZFPlayer-umbrella.h */,
+				19A10F91420C0882C9C84C30D341D54A /* ZFPlayer.debug.xcconfig */,
+				C3CBD96B430EB6185275DB69711B874E /* ZFPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZFPlayer";
+			sourceTree = "<group>";
+		};
+		2981EE624935788C81202E4C5502506E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8013AA6B1CC26DBCA5436804FF9B5508 /* UIScrollView+ZFPlayer.h */,
+				F6BFFD039157C9F3EB9F418C1400EB68 /* UIScrollView+ZFPlayer.m */,
+				2AAE4805F121ACCF182B61FA85F6B234 /* UIViewController+ZFPlayerRotation.m */,
+				98075730CB27FF541E8EA5203139BBC4 /* ZFFloatView.h */,
+				4C3CB33D6EB99059BAD9879402754DFF /* ZFFloatView.m */,
+				CC22BD92952F2A5AFF8C02D9AE7870E6 /* ZFKVOController.h */,
+				D1CDDF873E161F10D15BBB1F0E6FF680 /* ZFKVOController.m */,
+				E586CF460B3A3D19A8CB56E57B56C265 /* ZFLandscapeViewController.h */,
+				8F5736A5D71806451275EE55E8A3C94A /* ZFLandscapeViewController.m */,
+				96156DCB617394985BDD2FF8BA5E8F9E /* ZFLandscapeWindow.h */,
+				F5ED9CD671C8E2348DF7558AD9F0BE41 /* ZFLandscapeWindow.m */,
+				97EE58CC576C888ABB2093422A4E74CD /* ZFOrientationObserver.h */,
+				963B10A8D984B54E6A54C73BD9043EF2 /* ZFOrientationObserver.m */,
+				9F16C7F26FFCC33F71BAF587AA0D8A82 /* ZFPersentInteractiveTransition.h */,
+				117B7E11AEA00DF757D74D30C5A0AFAA /* ZFPersentInteractiveTransition.m */,
+				E839E63EA52FF50AD0BAF8D58A1B20A2 /* ZFPlayer.h */,
+				7E3AD2C4CDCC08B3E0E6CD4D0BD60C79 /* ZFPlayerConst.h */,
+				73FA8776F52DF82BF113144D0C77933E /* ZFPlayerController.h */,
+				5AEE183DA8F24042D52D5255471B1284 /* ZFPlayerController.m */,
+				693735AB28930BF9C0FB193E80425FD2 /* ZFPlayerGestureControl.h */,
+				D779E7111C3197ED28CC638CD08B7B6C /* ZFPlayerGestureControl.m */,
+				F758DD61F2E1BCC5FEA4197DC61BA927 /* ZFPlayerLogManager.h */,
+				2A8A0B20649C38711B76BFD575098F70 /* ZFPlayerLogManager.m */,
+				B07EA7A84B527BBC0629ED1FFA679EAF /* ZFPlayerMediaControl.h */,
+				3A38649D72BD44764C344277A509CE06 /* ZFPlayerMediaPlayback.h */,
+				00410CCD6699284C62E973028DAF11C3 /* ZFPlayerNotification.h */,
+				A6535EF0C69C5552D91C50B03D7EEB4C /* ZFPlayerNotification.m */,
+				4930430817F28627FD0ED3A21C1A43A6 /* ZFPlayerView.h */,
+				A5FE0DCCD7B3E3DBD5206CFBDD1E066E /* ZFPlayerView.m */,
+				734D6E793F4CD4162A4224C93EF57BAF /* ZFPortraitViewController.h */,
+				97ABC2B638397BA5587A7DA73D1579FB /* ZFPortraitViewController.m */,
+				DE913EA15E7CA56A7C8DB9AD35E0D8DF /* ZFPresentTransition.h */,
+				F2BE6BC1BF90E829A695EE080555363C /* ZFPresentTransition.m */,
+				9BA7CE1BACF5A7D0D86E250DC22E885F /* ZFReachabilityManager.h */,
+				2D9C4753C0C82EAB360EDC809707CAD3 /* ZFReachabilityManager.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		38F2486C49706DA9B39FEB5E03BB428D /* Pods-Pip */ = {
+			isa = PBXGroup;
+			children = (
+				A7824174C134E8A6820BAF701F4AFD3D /* Pods-Pip.modulemap */,
+				5F2DA61FC1196E9A79F93A3C7DFAAB68 /* Pods-Pip-acknowledgements.markdown */,
+				764C9464E3260DC944BEFD347FA2BFF2 /* Pods-Pip-acknowledgements.plist */,
+				06A0504C0F39FDFE3407AE1C9FDC6F44 /* Pods-Pip-dummy.m */,
+				FEAF32361CB2F9614E27FE46C5F39089 /* Pods-Pip-frameworks.sh */,
+				1F35CC761B59C517C22F2870471BC339 /* Pods-Pip-Info.plist */,
+				7B1913FF2D85EF82B4F26283B1800C34 /* Pods-Pip-resources.sh */,
+				899750F5A53A60397A49D2D394E6C4CB /* Pods-Pip-umbrella.h */,
+				AA35922B73C351663F562CE31EB6E4FE /* Pods-Pip.debug.xcconfig */,
+				3131502706F7AAEEC4F3123C94A103A3 /* Pods-Pip.release.xcconfig */,
+			);
+			name = "Pods-Pip";
+			path = "Target Support Files/Pods-Pip";
+			sourceTree = "<group>";
+		};
+		3E1A1F322050940E655CB62C70E14AA5 /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+				684C39C2C45A7C9C5F3EB75C5B7CF1B2 /* UIImageView+ZFCache.h */,
+				AE39D30A4ED5F885AA349E07CF1D5D94 /* UIImageView+ZFCache.m */,
+				90F9B3A2454C7589598D0F636558B49C /* UIView+ZFFrame.h */,
+				8A68228143F9932FE891F39F387CEDB1 /* UIView+ZFFrame.m */,
+				72570202D24E1F1AF656105F1E06C49C /* ZFLandScapeControlView.h */,
+				C751F464BD48FC8CA915AEF72309B3C9 /* ZFLandScapeControlView.m */,
+				D489B2D336BD7E18CB7D334CDC60AFF3 /* ZFLoadingView.h */,
+				EC92E9E5C4424333B5201856402147F5 /* ZFLoadingView.m */,
+				ED3A98691BD0879507026F9B7FA24770 /* ZFNetworkSpeedMonitor.h */,
+				705DF25C4E0532740A3D1D0D32DDEB47 /* ZFNetworkSpeedMonitor.m */,
+				D4CFAC2EDEBD6C16F0364EB3976BE997 /* ZFPlayerControlView.h */,
+				D557A08F83B8BAD171B04D7F343F8738 /* ZFPlayerControlView.m */,
+				7F1756C4E186A472121029E6CA6068FF /* ZFPortraitControlView.h */,
+				C38D69DCB54807C21CDCD0B75DDCEB82 /* ZFPortraitControlView.m */,
+				AB4BA76A9E88536FBDC1D864B70784BE /* ZFSliderView.h */,
+				3207E26DAB6A7A2444B5CECA786F5553 /* ZFSliderView.m */,
+				F8E89EE5DA65CD8ED20E27C6C2E3404E /* ZFSmallFloatControlView.h */,
+				E205200C48963E8ED92C2314F9A33712 /* ZFSmallFloatControlView.m */,
+				03B3E0AF9D8189A2D16FC85FA9BB3290 /* ZFSpeedLoadingView.h */,
+				E85BFEF2FFCB6AED40600109ADFE7F36 /* ZFSpeedLoadingView.m */,
+				76F0764D92B9FE3945962D67A315ECB4 /* ZFUtilities.h */,
+				437B8801AE6C9BC6B9564427FFB47F30 /* ZFUtilities.m */,
+				A3821DCDB8177868C7AA0DDF31183897 /* ZFVolumeBrightnessView.h */,
+				3250FEC928883A4B7B52055090DE7863 /* ZFVolumeBrightnessView.m */,
+				16032F9E0CD64173BB89A90B8C52559D /* Resources */,
+			);
+			name = ControlView;
+			sourceTree = "<group>";
+		};
+		5660B52956159AFEFE9A4AEDEED9EE4C /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				843474B3A374851A5114ACD77EB4C371 /* ZFAVPlayerManager.h */,
+				731C31A809A515AD1D3E9094B08598CF /* ZFAVPlayerManager.m */,
+			);
+			name = AVPlayer;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B93D1639AF0D18EC529AF79E59D95D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ACE05F24C849348AE433258DBC76B17 /* SnapKit.modulemap */,
+				1706AD5F0C1189F70CA11BB8290A7947 /* SnapKit-dummy.m */,
+				05C46777D2303CB110D265285C1D21D3 /* SnapKit-Info.plist */,
+				EC4843FA73BEC0DC1CDC9C6BFE5CD66B /* SnapKit-prefix.pch */,
+				986985F05AFE5E2CECAE5497FDA1413E /* SnapKit-umbrella.h */,
+				EA77E04AC695A831E1BA4DCB1C259641 /* SnapKit.debug.xcconfig */,
+				790DD1B955C44C3DD3FA37E0744190E9 /* SnapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		A368151F9770E9252E8C0AEB20715349 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A180FCB7428F2C049D60A24FED136 /* Constraint.swift */,
+				7578639EA36CB6967485AFA37C5BABFC /* ConstraintAttributes.swift */,
+				A10DB0DF1D7375F7E843F9A0E2025324 /* ConstraintConfig.swift */,
+				D47CFE48743072A73E272795DC59ED81 /* ConstraintConstantTarget.swift */,
+				B65C34CC825F803995BAF01CADCADD8C /* ConstraintDescription.swift */,
+				0A9EDCCC82CC9F3A01972A86BB5CD1B7 /* ConstraintDirectionalInsets.swift */,
+				4B8AAB071CC04536B1FB22943D6429A6 /* ConstraintDirectionalInsetTarget.swift */,
+				4A69AD0AF491C3157F2CC8327450472A /* ConstraintDSL.swift */,
+				D95478D79564C0625524072064371888 /* ConstraintInsets.swift */,
+				0024805D43D0FFBA54D6EF70D82622EC /* ConstraintInsetTarget.swift */,
+				97401610AB0CBF37B97528AB7D96BB98 /* ConstraintItem.swift */,
+				7862AB3523FD1BE2ED50BACB06E5A3B5 /* ConstraintLayoutGuide.swift */,
+				D574AE51D13CCAD5CD739CD0FF76D89A /* ConstraintLayoutGuide+Extensions.swift */,
+				1817BC331043CC41AE6033205CAA2D6F /* ConstraintLayoutGuideDSL.swift */,
+				A4839E3C84BD91AE963B3ECA4AC8ACFB /* ConstraintLayoutSupport.swift */,
+				F4CAC8193A91C4CED9E90188EA113218 /* ConstraintLayoutSupportDSL.swift */,
+				BF48B12FDC26BEEC319AFA870C7E658E /* ConstraintMaker.swift */,
+				6126BD10F4371AC7AD420EAEE2C0B45C /* ConstraintMakerEditable.swift */,
+				228517A9169738B82FB00CFDE4DA2D19 /* ConstraintMakerExtendable.swift */,
+				96664FDC54E9FAC997B53AA87D8468F8 /* ConstraintMakerFinalizable.swift */,
+				DB5349F4D889890E1C0DDD659AD377FA /* ConstraintMakerPriortizable.swift */,
+				AF725F6EADCF6F7768097B71B03421F6 /* ConstraintMakerRelatable.swift */,
+				F1B0D8F146CBDDBF758DC9DEF67633E1 /* ConstraintMultiplierTarget.swift */,
+				C5F57CBB62ADE20B8511583ECF25AEA2 /* ConstraintOffsetTarget.swift */,
+				29EC35FB2C1C15359BC85C2E27475717 /* ConstraintPriority.swift */,
+				C6E1FC8F7D4D5E82D8751F3E793523EB /* ConstraintPriorityTarget.swift */,
+				CA6DFDF7F7B5AC1392B015C2B214E1FF /* ConstraintRelatableTarget.swift */,
+				1C59CC55C43282BB242C8D4D2D983CA7 /* ConstraintRelation.swift */,
+				D6B77022BD659FEAED578A57DFA6CE2F /* ConstraintView.swift */,
+				EACCA298D443411D9C0BE413E809EA01 /* ConstraintView+Extensions.swift */,
+				A39958F720720C2E1A6767A518EEF703 /* ConstraintViewDSL.swift */,
+				8A5B04977FEB78CB7FB993C30F936016 /* Debugging.swift */,
+				BA49916DF3A673A9124F27D4984FA79D /* LayoutConstraint.swift */,
+				2F68D6AFA27ECB96516813082A1B33E0 /* LayoutConstraintItem.swift */,
+				889B5437A93AC0196D5C56C56FAE4CD6 /* Typealiases.swift */,
+				7A7334AD8160E15502CB668786A4EEBE /* UILayoutSupport+Extensions.swift */,
+				9B93D1639AF0D18EC529AF79E59D95D5 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		C6F1A4F14B77FC1F863E87FDAAE27DB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE22138B1AC0B2F3872C9EA2D54100 /* Pods-Pip */,
+				979486118B3E90C08386079D57962701 /* SnapKit */,
+				ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0ED3F05E0B4EC25BB0D62F897EC14C41 /* Pods */,
+				C6F1A4F14B77FC1F863E87FDAAE27DB9 /* Products */,
+				E8EB158977E66AF11F7E47FA8F819286 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB14F762A418A1BE42FEF60DD0B955CD /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5660B52956159AFEFE9A4AEDEED9EE4C /* AVPlayer */,
+				3E1A1F322050940E655CB62C70E14AA5 /* ControlView */,
+				2981EE624935788C81202E4C5502506E /* Core */,
+				25CE3F60B0C0BDD935529054786F2805 /* Support Files */,
+			);
+			name = ZFPlayer;
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		E8EB158977E66AF11F7E47FA8F819286 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38F2486C49706DA9B39FEB5E03BB428D /* Pods-Pip */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B37C713693259C761B7E54A3323C332 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257239AFDB01CB1FF168F90B1ABB2CEA /* UIImageView+ZFCache.h in Headers */,
+				33948FF29B2AF686FC2DDB47976E7403 /* UIScrollView+ZFPlayer.h in Headers */,
+				06DC44C1CD321C714C2F5BB7993BE157 /* UIView+ZFFrame.h in Headers */,
+				868F8D3659B591A5B1F675342D1AD392 /* ZFAVPlayerManager.h in Headers */,
+				8187269C1C9BCDAF0AD1900971633F11 /* ZFFloatView.h in Headers */,
+				547E9DAC936F4133B07862178BADC69E /* ZFKVOController.h in Headers */,
+				F6B79EE2587A0D037C6ABB68319DF456 /* ZFLandScapeControlView.h in Headers */,
+				4C308AFA458D8682CF27EFE92BF708AA /* ZFLandscapeViewController.h in Headers */,
+				63995C33E927D9D3B07CE043C6B8EF71 /* ZFLandscapeWindow.h in Headers */,
+				316006AE4B6B3155636492364F2C895F /* ZFLoadingView.h in Headers */,
+				49EC42965AF41208F36C47265194D2BB /* ZFNetworkSpeedMonitor.h in Headers */,
+				7A9956995BC4541FE4BE1E3D161F7AF9 /* ZFOrientationObserver.h in Headers */,
+				AEAE23F71F48AC3335238BAE5C83C1E3 /* ZFPersentInteractiveTransition.h in Headers */,
+				A0B4D15FF5E1F7BEB71B39F50AD16E6A /* ZFPlayer.h in Headers */,
+				0C768F7C63D2E1BB499036C72DFEBD2C /* ZFPlayer-umbrella.h in Headers */,
+				8E839DACDAB99902E032A4D3995559C4 /* ZFPlayerConst.h in Headers */,
+				5596BBA32E5CBD8786A59ADB1E24C8BD /* ZFPlayerController.h in Headers */,
+				E467104EEC13B660444F9CF14CAF6AFD /* ZFPlayerControlView.h in Headers */,
+				22176B465D99294EB1029BE091F60A54 /* ZFPlayerGestureControl.h in Headers */,
+				E9163CE9E4C7F4FB51C147540EF0C27C /* ZFPlayerLogManager.h in Headers */,
+				FAB9C965E2CA79EF790EC94963CED4C8 /* ZFPlayerMediaControl.h in Headers */,
+				1F3615805640C45C4C064FC33DF7B190 /* ZFPlayerMediaPlayback.h in Headers */,
+				E5DA0CCA3B7742900E278FCAA363AA8A /* ZFPlayerNotification.h in Headers */,
+				9642440D0B07B793EC29DCDB95AA1B58 /* ZFPlayerView.h in Headers */,
+				5656C1EE1BDB14D36428BA872A3DCE10 /* ZFPortraitControlView.h in Headers */,
+				3E3BE30A6F432CAB2B3F1DCE0BFC2724 /* ZFPortraitViewController.h in Headers */,
+				1D769643B28A005397BF62D4779B5FFE /* ZFPresentTransition.h in Headers */,
+				939A858E2D9C0A7630F7A705737E5817 /* ZFReachabilityManager.h in Headers */,
+				7ECE79F02AF8EF3C5C3CFCDAE4D7C4EF /* ZFSliderView.h in Headers */,
+				9708BF5AFCD7DDD441E5D313B47B2D23 /* ZFSmallFloatControlView.h in Headers */,
+				8ABED11C99867C85A89D03B4C691BFFF /* ZFSpeedLoadingView.h in Headers */,
+				0A1D0A0E22C55EC0136F04E6FD2BEF87 /* ZFUtilities.h in Headers */,
+				19133A635073701046E2DABDF091123D /* ZFVolumeBrightnessView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B921547E999920F44EBD58F955423CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4467357581E8345DD348683CC4111AF /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EC18F15BC238719D972ABB40CEB29E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62FF28EC5007DFAED117B4605C08CF4 /* Pods-Pip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		130F7230EF4BD3A64FFAF78A1DC093C5 /* Pods-Pip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B5C746DF85F3AD1F470766CF94B849 /* Build configuration list for PBXNativeTarget "Pods-Pip" */;
+			buildPhases = (
+				D2EC18F15BC238719D972ABB40CEB29E /* Headers */,
+				97FDC8066A4F33ECA7AA18ED35A5A52B /* Sources */,
+				EF8A85FFEC56CE3B6F2C177A7C96A7FD /* Frameworks */,
+				930862BDDDA8E28542D6B1262B627EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5D5E63BB0A8641AABCEC27B09FAA52 /* PBXTargetDependency */,
+				22713BCE142983C36D4A0B30548953A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pip";
+			productName = Pods_Pip;
+			productReference = B4CE22138B1AC0B2F3872C9EA2D54100 /* Pods-Pip */;
+			productType = "com.apple.product-type.framework";
+		};
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				3B921547E999920F44EBD58F955423CC /* Headers */,
+				06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */,
+				9B30433E568C40FCE04D5188A9715448 /* Frameworks */,
+				DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0056CD83B4025695C0C6D8CE7733058 /* Build configuration list for PBXNativeTarget "ZFPlayer" */;
+			buildPhases = (
+				0B37C713693259C761B7E54A3323C332 /* Headers */,
+				7532F383C7A7C19ABE4214BFED5AA9B6 /* Sources */,
+				C5991E14149A190CC7497242D2C2A7FF /* Frameworks */,
+				08703830D45C8D6A3580C46A172B0E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFPlayer;
+			productName = ZFPlayer;
+			productReference = ED363DD89BB17FB9F31F94524BA59CBB /* ZFPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C6F1A4F14B77FC1F863E87FDAAE27DB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130F7230EF4BD3A64FFAF78A1DC093C5 /* Pods-Pip */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08703830D45C8D6A3580C46A172B0E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		930862BDDDA8E28542D6B1262B627EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFBC99C6F5D9B1D57CC9D1C6E9209EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A02EF810C9B8F84BA558BBDB9E5D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A4A1046676D304410544EB56732A49 /* Constraint.swift in Sources */,
+				7580FAAB1BDA52F5A969E5571D1A5973 /* ConstraintAttributes.swift in Sources */,
+				B543FD108C1C6AF6129CB4991553218B /* ConstraintConfig.swift in Sources */,
+				C61D3BC32A28A405C934C00039AD2583 /* ConstraintConstantTarget.swift in Sources */,
+				8FD9CD608C4EAAFDE6AC7B8B9EF0FF5E /* ConstraintDescription.swift in Sources */,
+				A0F754C88A64972A40A9008B0AD52109 /* ConstraintDirectionalInsets.swift in Sources */,
+				7764AA5F6BBFC6ECE43959923DD007D3 /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				90FD5AE525E138A473723FD79AF73273 /* ConstraintDSL.swift in Sources */,
+				8C6546C1EF4F153DF3795CC6FE189E5B /* ConstraintInsets.swift in Sources */,
+				BEBF920FEB959B46A76BAADF22E5CD15 /* ConstraintInsetTarget.swift in Sources */,
+				BD333CDBCF5D2FD55920336FC271DF33 /* ConstraintItem.swift in Sources */,
+				EE6C364198A763EBBF49237035D86439 /* ConstraintLayoutGuide.swift in Sources */,
+				3DEDFA52B3A196F6D3E1F0937617628A /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				8449EB1DFD43E222D687D5A8D2088D2D /* ConstraintLayoutGuideDSL.swift in Sources */,
+				3B60C02F6E42FD06B128473E00A94224 /* ConstraintLayoutSupport.swift in Sources */,
+				274DF0E2BF04F6F4F9F1E70CF513A4F2 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				CB194156C900B767B0160AF72EDF354D /* ConstraintMaker.swift in Sources */,
+				A53D3AF15CE8D348306EF11619C5D166 /* ConstraintMakerEditable.swift in Sources */,
+				825062025906CE93C5D124E1FD9A811E /* ConstraintMakerExtendable.swift in Sources */,
+				D13D417B236E736EEAE7217B5CE3EC5C /* ConstraintMakerFinalizable.swift in Sources */,
+				F2C817C166B2DE613222C41015A586C9 /* ConstraintMakerPriortizable.swift in Sources */,
+				CB8E4BF0D710970BE2CB4C87ED1043E4 /* ConstraintMakerRelatable.swift in Sources */,
+				17BE0F4E51B0FB968125F1A520607FD8 /* ConstraintMultiplierTarget.swift in Sources */,
+				62F299B4704A7C95FB5866C6CDE2E2FD /* ConstraintOffsetTarget.swift in Sources */,
+				F343BA4E457FFDB0165492AECAEF0BCC /* ConstraintPriority.swift in Sources */,
+				E36244E8BF4AC941E82DAF16DDF4BBC2 /* ConstraintPriorityTarget.swift in Sources */,
+				E8EAADACF3BAE33BDECBC7214EAE9CD2 /* ConstraintRelatableTarget.swift in Sources */,
+				D59C2826AD288ECFF576B2AFA312716C /* ConstraintRelation.swift in Sources */,
+				F24D06C23DAB2F52A30C886A7A8177C7 /* ConstraintView.swift in Sources */,
+				1E9EEA756F2774D73347F1660EEFE3E9 /* ConstraintView+Extensions.swift in Sources */,
+				5E8BA529DFB4529006967624044FEC1C /* ConstraintViewDSL.swift in Sources */,
+				F10586462FB54CEA169A1A7A469A926D /* Debugging.swift in Sources */,
+				43863B6D6A0E47B6648BB7B469736EDD /* LayoutConstraint.swift in Sources */,
+				4CA13A0527BC57DE2C54A0F3B5ED8652 /* LayoutConstraintItem.swift in Sources */,
+				968B4874A9F12D67C8B901136C9C8157 /* SnapKit-dummy.m in Sources */,
+				3CD5FAFC746A76D73C3F501734199DFF /* Typealiases.swift in Sources */,
+				144DA93A55A598F5197F10C729FBDD69 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7532F383C7A7C19ABE4214BFED5AA9B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C6DA00887152AA44E2C3B4C2D30452 /* UIImageView+ZFCache.m in Sources */,
+				26B0300AAD550387A98198F4480B98B0 /* UIScrollView+ZFPlayer.m in Sources */,
+				C0DCDA02C7B15CEBDDAA20FFAACA0CA8 /* UIView+ZFFrame.m in Sources */,
+				1D0629EFAF1DA302B9F10CB131D5774A /* UIViewController+ZFPlayerRotation.m in Sources */,
+				27B46AD79B4F4FB6B292C0CFE7D6FC05 /* ZFAVPlayerManager.m in Sources */,
+				A7899219F39360F74328F50A1E9B3A0B /* ZFFloatView.m in Sources */,
+				2D7BCB230C835C3886239C7E73E2BE20 /* ZFKVOController.m in Sources */,
+				E4F8E1DAA8CD82F933532B8BF9848A20 /* ZFLandScapeControlView.m in Sources */,
+				D29DF48DE81273D5C812F2CB7D23042F /* ZFLandscapeViewController.m in Sources */,
+				A73867CBF65BA575BF8D076EF3D26209 /* ZFLandscapeWindow.m in Sources */,
+				8E84C01B6A0C0562879E3C2401171083 /* ZFLoadingView.m in Sources */,
+				B2126C2BAADA1D00DD4C66BB2CEBB52E /* ZFNetworkSpeedMonitor.m in Sources */,
+				89B7A42ED28B8FF7687250DC172AEB86 /* ZFOrientationObserver.m in Sources */,
+				BE33F0F776CBAEE48F4E8928BE5E3371 /* ZFPersentInteractiveTransition.m in Sources */,
+				15F6C0116817EC9F2FDDEEE5857EBC03 /* ZFPlayer-dummy.m in Sources */,
+				3FA27B6EE59BFB9C532B38E7C1584C1B /* ZFPlayerController.m in Sources */,
+				879A15976D41FA9C88D5073A38BB6FF2 /* ZFPlayerControlView.m in Sources */,
+				1A3F951E5FC23F7F4589691771A825CA /* ZFPlayerGestureControl.m in Sources */,
+				D2863B72BD9973C88B3ECC119BCF0639 /* ZFPlayerLogManager.m in Sources */,
+				4C985D65D6AE13E68F17C26BEB6F08BF /* ZFPlayerNotification.m in Sources */,
+				9C5CAF767B0310CF633E93DE1F23F4B7 /* ZFPlayerView.m in Sources */,
+				4BA3EC7D277231C4A181B27E1C403CAC /* ZFPortraitControlView.m in Sources */,
+				A8B1C20B3B834D0C02D06D42595C4760 /* ZFPortraitViewController.m in Sources */,
+				1288B5CB4B7EF125A1D9C79C07DAE42D /* ZFPresentTransition.m in Sources */,
+				53607DD53CCF008A25AB9E4712F81940 /* ZFReachabilityManager.m in Sources */,
+				D7E539A23AE7E554EF8B8EFEDA49AB01 /* ZFSliderView.m in Sources */,
+				F6A07B02B24DE1DEF80303EA015C2DBB /* ZFSmallFloatControlView.m in Sources */,
+				20C30F4ABA6696744CD6249AE74D7A92 /* ZFSpeedLoadingView.m in Sources */,
+				0E0B64F0403B883FE9ACCD7B006B00CF /* ZFUtilities.m in Sources */,
+				F5E575535D380D89C58484428494C85A /* ZFVolumeBrightnessView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FDC8066A4F33ECA7AA18ED35A5A52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E993EF11A3F92CF816BF5F67B1ED31 /* Pods-Pip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22713BCE142983C36D4A0B30548953A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZFPlayer;
+			target = 93FD1F93E0C30B2749BD8A6EC148F233 /* ZFPlayer */;
+			targetProxy = 264ADBCAA4971AC32C30F279408A6CA2 /* PBXContainerItemProxy */;
+		};
+		FB5D5E63BB0A8641AABCEC27B09FAA52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 9C1FF182136F51E6CD6DC710264076AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31658CB05DDBC952F27AA6E8FCB1B5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA35922B73C351663F562CE31EB6E4FE /* Pods-Pip.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pip/Pods-Pip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pip/Pods-Pip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79086C6FA394AD2A2153471244520B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CBD96B430EB6185275DB69711B874E /* ZFPlayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFPlayer/ZFPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZFPlayer/ZFPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZFPlayer/ZFPlayer.modulemap";
+				PRODUCT_MODULE_NAME = ZFPlayer;
+				PRODUCT_NAME = ZFPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		898F32B0E564E6ACDDCDFCC1E8FBDF9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3131502706F7AAEEC4F3123C94A103A3 /* Pods-Pip.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pip/Pods-Pip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pip/Pods-Pip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C318B45BFE777A8A2CDE0149B186C0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A10F91420C0882C9C84C30D341D54A /* ZFPlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZFPlayer/ZFPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZFPlayer/ZFPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZFPlayer/ZFPlayer.modulemap";
+				PRODUCT_MODULE_NAME = ZFPlayer;
+				PRODUCT_NAME = ZFPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB8A79F7382B0A1227C38D59E7968EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA77E04AC695A831E1BA4DCB1C259641 /* SnapKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFFD31690F9CC8449FD1F803388E1D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790DD1B955C44C3DD3FA37E0744190E9 /* SnapKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4949A940CD53B7E293859B71C91C88F3 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8A79F7382B0A1227C38D59E7968EEA /* Debug */,
+				DFFD31690F9CC8449FD1F803388E1D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B5C746DF85F3AD1F470766CF94B849 /* Build configuration list for PBXNativeTarget "Pods-Pip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31658CB05DDBC952F27AA6E8FCB1B5D7 /* Debug */,
+				898F32B0E564E6ACDDCDFCC1E8FBDF9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0056CD83B4025695C0C6D8CE7733058 /* Build configuration list for PBXNativeTarget "ZFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C318B45BFE777A8A2CDE0149B186C0A8 /* Debug */,
+				79086C6FA394AD2A2153471244520B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

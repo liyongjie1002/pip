@@ -1,0 +1,28 @@
+PODS:
+  - SnapKit (5.0.1)
+  - ZFPlayer (4.0.3):
+    - ZFPlayer/Core (= 4.0.3)
+  - ZFPlayer/AVPlayer (4.0.3):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.3):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.3)
+
+DEPENDENCIES:
+  - SnapKit
+  - ZFPlayer
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
+
+PODFILE CHECKSUM: 0daf58e47645de2487872ad321c10fcf297805f6
+
+COCOAPODS: 1.11.2
